@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="vankhaiaistudio.jpg" alt="Auto Capcut Pro Logo" width="300"/>
-</div>
+  <img src="vankhaiaistudio.png" alt="Auto Capcut Pro Logo" width="300"/>
+  <h1>Auto CapCut Pro</h1>
   <p><strong>Công cụ Tự Động Hóa Xây Dựng Dự Án CapCut Bằng Trí Tuệ Nhân Tạo (AI)</strong></p>
 
   [![Version](https://img.shields.io/badge/Version-1.4.6-blue.svg)](#)
