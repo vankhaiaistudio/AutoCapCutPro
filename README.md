@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="https://img.icons8.com/color/144/000000/capcut.png" alt="Logo" width="100"/>
+  <img src="vankhaiaistudio.jpg" alt="Auto Capcut Pro Logo" width="300"/>
+</div>
   <h1>Auto CapCut Pro</h1>
   <p><strong>Công cụ Tự Động Hóa Xây Dựng Dự Án CapCut Bằng Trí Tuệ Nhân Tạo (AI)</strong></p>
 
