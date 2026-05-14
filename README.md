@@ -3,7 +3,7 @@
   <h1>Auto CapCut Pro</h1>
   <p><strong>Công cụ Tự Động Hóa Xây Dựng Dự Án CapCut Bằng Trí Tuệ Nhân Tạo (AI)</strong></p>
 
-  [![Version](https://img.shields.io/badge/Version-1.4.0-blue.svg)](#)
+  [![Version](https://img.shields.io/badge/Version-1.4.6-blue.svg)](#)
   [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-green.svg)](#)
   [![AI](https://img.shields.io/badge/Powered%20by-AI%20Voice%20%26%20Whisper-orange.svg)](#)
   [![License](https://img.shields.io/badge/Bản%20quyền-Văn%20Khải%20AI%20Studio-red.svg)](#)
