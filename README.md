@@ -3,117 +3,70 @@
   <h1>Auto CapCut Pro</h1>
   <p><strong>Công cụ Tự Động Hóa Xây Dựng Dự Án CapCut Bằng Trí Tuệ Nhân Tạo (AI)</strong></p>
 
-  [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg?logo=python&logoColor=white)](#)
-  [![PyQt5](https://img.shields.io/badge/PyQt5-GUI-green.svg?logo=qt)](#)
-  [![AI](https://img.shields.io/badge/AI-Whisper%20%7C%20TTS-orange.svg)](#)
-  [![License](https://img.shields.io/badge/License-Proprietary-red.svg)](#)
+  [![Version](https://img.shields.io/badge/Version-1.4.0-blue.svg)](#)
+  [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-green.svg)](#)
+  [![AI](https://img.shields.io/badge/Powered%20by-AI%20Voice%20%26%20Whisper-orange.svg)](#)
+  [![License](https://img.shields.io/badge/Bản%20quyền-Văn%20Khải%20AI%20Studio-red.svg)](#)
 
 </div>
 
 <br/>
 
 ## 🌟 Giới Thiệu
-**Auto CapCut Pro** là ứng dụng Desktop mạnh mẽ được phát triển bởi **Văn Khải AI Studio**, giúp các nhà sáng tạo nội dung (Content Creators) biến kịch bản văn bản thành một Video Dự Án (Draft) hoàn chỉnh trên CapCut Desktop chỉ với vài cú click chuột.
+**Auto CapCut Pro** là phần mềm mạnh mẽ được phát triển độc quyền bởi **Văn Khải AI Studio**, giúp các nhà sáng tạo nội dung (Content Creators), Editor, và Marketer biến kịch bản văn bản thành một Video hoàn chỉnh trên CapCut PC chỉ với vài cú click chuột.
 
-Hệ thống tích hợp hàng loạt công nghệ AI tiên tiến (Text-to-Speech, Silence Detection, Whisper Subtitling) để tự động sinh giọng đọc, tạo phụ đề, lồng ghép hiệu ứng hình ảnh (Ken Burns) và tự động lắp ráp chúng vào Timeline của CapCut.
-
----
-
-## 🔥 Tính Năng Nổi Bật
-
-### 🤖 1. AI Text-To-Speech (Khử Khoảng Lặng)
-- Tích hợp Engine TTS siêu thực (Voice Cloning).
-- **Silence Detection**: Tự động phát hiện và cắt bỏ những khoảng lặng thừa trong file âm thanh AI bằng thuật toán phân tích biên độ (`pydub`), giúp video giữ được nhịp độ dồn dập, lôi cuốn.
-
-### 📝 2. Tự Động Tạo Phụ Đề (Auto Subtitles)
-- Hỗ trợ **Const-me Whisper** (phiên bản Whisper tối ưu GPU siêu tốc trên Windows) và `faster-whisper`.
-- Tự động tạo phụ đề khớp 100% với giọng đọc đã được khử khoảng lặng.
-- Chỉnh sửa trực tiếp font chữ, màu sắc, viền (stroke), bóng chữ (shadow) và vị trí của phụ đề ngay trên App.
-
-### 🎨 3. Auto Sync & Ken Burns Effects
-- Khớp nối Ảnh/Video với nội dung đọc một cách tự động dựa trên quy tắc đặt tên (`1_anh.jpg`, `2_video.mp4`).
-- Tự động thêm **Hiệu ứng Ken Burns** (Pan/Zoom) đa chiều (Trái, Phải, Trên, Dưới, Random) giúp ảnh tĩnh trở nên sinh động.
-- Hỗ trợ gán **Chuyển cảnh (Transitions)** ngẫu nhiên hoặc cố định giữa các clip.
-
-### ⚙️ 4. Build CapCut Draft Nội Bộ
-- Đọc thông số trực tiếp từ CapCut Draft JSON.
-- Hỗ trợ **Compound Clip**: Tự động gộp Video & Audio để giữ Timeline CapCut siêu gọn gàng.
-- Định cấu hình sẵn Tỷ lệ khung hình, FPS, Color Space, Watermark.
-
-### 🔐 5. Hệ Thống License & Thanh Toán Tự Động (PayOS)
-- Tích hợp hệ thống phân phối mã bản quyền (HWID-based).
-- Tích hợp cổng thanh toán **PayOS** với mã QR động, tự động nhận dạng giao dịch và cấp Key kích hoạt ngay trên Desktop App.
+Không còn phải lồng tiếng thủ công, không còn phải hì hục cắt ghép khoảng lặng, không còn phải gõ từng dòng phụ đề! Mọi thứ giờ đây được tự động hóa 100% bằng sức mạnh của AI.
 
 ---
 
-## 🛠️ Công Nghệ Sử Dụng (Tech Stack)
-- **Ngôn ngữ:** Python 3.11+
-- **Giao diện:** PyQt5 (Thiết kế Modern UI, QThread multiprocessing)
-- **Xử lý Audio/Video:** FFmpeg, Pydub, Soundfile
-- **AI Models:** HuggingFace Transformers, Const-me Whisper
-- **Bảo mật & Đóng gói:** Cython (Compile `.py` to `.pyd` C-Extensions), PyInstaller, Inno Setup
+## 🔥 Các Tính Năng Đột Phá
+
+### 🤖 1. AI Đọc Kịch Bản Siêu Thực & Khử Khoảng Lặng
+- Biến văn bản thành giọng đọc tự nhiên, cảm xúc.
+- **Tính năng Khử Khoảng Lặng Độc Quyền**: Tự động phát hiện và cắt bỏ những khoảng nghỉ thừa trong âm thanh AI, giúp nhịp độ video dồn dập, lôi cuốn và chuyên nghiệp hơn bao giờ hết.
+
+### 📝 2. Tự Động Tạo Phụ Đề Chuyên Nghiệp
+- Ứng dụng công nghệ nhận diện giọng nói AI tiên tiến để tạo phụ đề chính xác đến từng từ.
+- Cho phép chỉnh sửa trực tiếp kiểu dáng phụ đề (Font chữ, màu sắc, viền, bóng đổ, hiệu ứng) ngay trên phần mềm trước khi xuất sang CapCut.
+
+### 🎨 3. Auto Sync Ảnh & Hiệu Ứng Ken Burns
+- Chỉ cần đánh số thứ tự ảnh/video (`1_anh.jpg`, `2_video.mp4`), phần mềm sẽ tự động lắp ráp chúng cho khớp với thời lượng giọng đọc của từng phần.
+- Tự động thêm **Hiệu ứng chuyển động Ken Burns** (Pan/Zoom đa chiều) giúp hình ảnh tĩnh trở nên sinh động và thu hút người xem.
+- Hệ thống tự động gán hiệu ứng chuyển cảnh (Transitions) mượt mà.
+
+### ⚙️ 4. Tạo Trực Tiếp CapCut Draft
+- Dữ liệu được xử lý và đóng gói trực tiếp thành project của CapCut Desktop (file `draft_content.json`).
+- Hỗ trợ tính năng **Compound Clip** (gộp clip) giúp Timeline trong CapCut cực kỳ gọn gàng, dễ dàng hậu kỳ nâng cao.
+
+### 🔐 5. Mua Bản Quyền Nhanh Chóng
+- Tích hợp cổng thanh toán mã QR tự động.
+- Chỉ mất 30 giây thanh toán, phần mềm tự động nhận dạng giao dịch và cấp Key bản quyền vĩnh viễn trên máy của bạn!
 
 ---
 
-## 📂 Cấu Trúc Dự Án
+## 💡 Hướng Dẫn Sử Dụng Nhanh
 
-```bash
-Auto_Capcut_Pro/
-├── auto_capcut_pro.py       # Entry point
-├── build.py                 # Pipeline đóng gói tự động (Cython -> PyInstaller -> Inno)
-├── src/                     # Source code (Classes, Workers, UI Panels, Utils)
-│   ├── main_window.py       # Cửa sổ chính của ứng dụng
-│   ├── panels.py            # Logic UI của 3 bước (Kịch bản, Media, Xuất CapCut)
-│   ├── capcut_builder.py    # Module sinh file draft_content.json cho CapCut
-│   ├── workers.py           # Luồng chạy ngầm AI (TTS, Whisper, Silence)
-│   ├── payment_dialog.py    # Giao diện PayOS QR Code
-│   └── license_manager.py   # Quản lý HWID & Key mã hóa
-├── vkai_tts/                # Core AI Engine (Đã được Obfuscated)
-└── build_temp/              # Thư mục xử lý quá trình Build
-```
+**Bước 1: Lên Kịch Bản**  
+Nhập văn bản kịch bản của bạn vào phần mềm. Tải lên hình ảnh/video minh họa tương ứng cho từng đoạn. Nhấn nút chạy để AI tự động tạo giọng đọc và phụ đề.
 
----
+**Bước 2: Cấu Hình Hình Ảnh & Âm Thanh**  
+Tùy chỉnh Nhạc nền, hình mờ (Watermark), chọn tỷ lệ khung hình video (9:16 cho TikTok/Reels, 16:9 cho YouTube), cài đặt phông chữ và hiệu ứng chuyển động.
 
-## 🚀 Hướng Dẫn Cài Đặt (Dành Cho Dev)
+**Bước 3: Xuất Sang CapCut**  
+Chọn thư mục lưu dự án CapCut trên máy của bạn và nhấn **Xuất Project**. 
 
-### 1. Yêu cầu hệ thống
-- Windows 10/11 (64-bit)
-- Python 3.11+
-- Visual C++ Build Tools (để chạy Cython compile)
-- FFmpeg (Thêm vào biến môi trường `PATH`)
-
-### 2. Cài đặt thư viện
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Khởi chạy ở chế độ Development
-```bash
-python auto_capcut_pro.py
-```
-
-### 4. Build File Thực Thi (.exe) & Installer
-Ứng dụng sử dụng script build đa bước tự động hóa cực mạnh:
-```bash
-# Lệnh build toàn diện (Cython -> PyInstaller -> InnoSetup)
-python build.py
-
-# Nếu chỉ muốn test build nhanh bỏ qua Cython & Inno Setup
-python build.py --skip-cython --skip-installer
-```
-*File `AutoCapCutPro_Setup_vX.X.X.exe` sẽ được lưu trong thư mục `dist/`.*
-
----
-
-## 💡 Workflow Sử Dụng Ứng Dụng (User Guide)
-
-1. **Bước 1 (Kịch bản & AI):** Nhập văn bản kịch bản (chia theo từng phần). Chọn Giọng đọc mẫu. App sẽ tự động tạo âm thanh, lọc khoảng lặng, và quét phụ đề.
-2. **Bước 2 (Media & Hiệu Ứng):** Cấu hình Nhạc nền, Watermark. Chọn hiệu ứng Pan/Zoom, Font chữ phụ đề, Căn lề, Drop Shadow.
-3. **Bước 3 (Xuất File):** Trỏ đường dẫn lưu đến thư mục Draft của CapCut Desktop (vd: `AppData/Local/CapCut/User Data/Projects/com.lveditor.draft/`). Nhấn **Xuất Project**.
-4. **Mở CapCut:** Draft sẽ xuất hiện ngay trong danh sách dự án nội bộ của CapCut, sẵn sàng cho bạn review và Export!
+**Bước 4: Hoàn Thiện**  
+Mở CapCut PC lên, dự án của bạn đã sẵn sàng trên Timeline! Bạn chỉ việc kiểm tra lại, thêm thắt một vài hiệu ứng (nếu muốn) và Export ra video hoàn chỉnh!
 
 ---
 
 <div align="center">
-  <i>Bản quyền thuộc về <b>Văn Khải AI Studio</b> © 2026. Mọi hành vi sao chép không xin phép đều bị cấm.</i>
+  <h2>📥 Tải Xuống Ngay</h2>
+  <p>Chuyển đến phần <b><a href="#">Releases</a></b> của trang này để tải về file cài đặt mới nhất.</p>
+</div>
+
+<br/>
+
+<div align="center">
+  <i>Sản phẩm được phát triển và bảo vệ bản quyền bởi <b>Văn Khải AI Studio</b> © 2026.</i>
 </div>
