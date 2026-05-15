@@ -1,0 +1,15 @@
+{
+    "version": "1.4.7",
+    "release_date": "2026-05-15",
+    "release_notes": "Phiên bản chính thức - Auto CapCut Pro",
+    "download_url": "https://github.com/vankhaiaistudio/AutoCapCutPro/releases",
+    "patch_url": "https://huggingface.co/datasets/vankhai2002/Tool-Loader/resolve/main/AutoCapCutPro_Deps/update_internal.zip?download=true",
+    "changelog": [
+        "Cải thiện hiệu suất và độ ổn định của ứng dụng",
+        "Sửa lỗi liên quan đến quá trình tạo dự án CapCut Draft",
+        "Tối ưu hóa giao diện người dùng và trải nghiệm sử dụng",
+        "Cập nhật các thư viện và công nghệ mới nhất để đảm bảo tương thích"
+    ],
+    "min_required_version": "1.4.7",
+    "force_update": false
+}
