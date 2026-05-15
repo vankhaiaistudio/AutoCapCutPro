@@ -1,13 +1,1 @@
-{
-    "version": "1.5.1",
-    "release_date": "2026-05-15",
-    "release_notes": "Phiên bản chính thức - Auto CapCut Pro",
-    "download_url": "https://github.com/vankhaiaistudio/AutoCapCutPro/releases",
-    "patch_url": "",
-    "changelog": [
-        "Bổ sung thêm engine faster-whisper",
-        "Fix 1 số lỗi nhỏ khác"
-    ],
-    "min_required_version": "1.5.1",
-    "force_update": false
-}
+
